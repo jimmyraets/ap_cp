@@ -659,10 +659,12 @@ padding: 5px 4px;
 text-shadow: 1px 1px #fff;
 border-right: 1px solid #c8c7c7;
 }
+
+/* DENNIS AANGEPAST =>  text-align van left naar center veranderd */
 #main td {
 background: #ebebeb;
 color: #747474;
-text-align: left;
+text-align: center;
 padding-left: 4px;
 border-right: 1px solid #c8c7c7;
 border-bottom: 1px solid #c8c7c7;
