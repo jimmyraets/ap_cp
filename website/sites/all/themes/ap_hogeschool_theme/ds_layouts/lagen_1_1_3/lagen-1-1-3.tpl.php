@@ -16,6 +16,8 @@
     </div>
   <?php endif; ?>
   
+  <div class="Wrapper-links-midden-rechts">
+  
    <?php if ($links): ?>
     <div class="ds-links<?php print $links_classes; ?>">
       <?php print $links; ?>
@@ -34,4 +36,5 @@
     </div>
   <?php endif; ?>
   
+  </div>
 </div>

@@ -314,7 +314,31 @@ function ap_hogeschool_theme_preprocess_menu_block_wrapper(&$variables) {
   }
 }
 
+/*
+*
+Verander de "Read more" , "Add new comment" in afbeeldingen en schakel de "comment-comments" uit (dat is de 1 comment link).
+*
+*/
 
+function ap_hogeschool_theme_preprocess_node(&$variables){
+	$variables['content']['links']['comment']['#links']['comment-comments'] = FALSE; 
+	if($variables['is_front'])
+	{	
+		$variables['content']['links']['node']['#links']['node-readmore']['title'] ='<div class="custom-add-read-more"> </div>';
+		$variables['content']['links']['comment']['#links']['node-readmore']['html'] = TRUE;
+		//$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<span class="element-invisible">Add comment</span>';
+		$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<div class="custom-add-comment"> </div>';
+		$variables['content']['links']['comment']['#links']['comment-add']['html'] = TRUE;
+    } 
+	if($variables['type'] == 'docs')
+	{	
+		$variables['content']['links']['node']['#links']['node-readmore']['title'] ='<div class="custom-add-read-more"> </div>';
+		$variables['content']['links']['comment']['#links']['node-readmore']['html'] = TRUE;
+		//$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<span class="element-invisible">Add comment</span>';
+		$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<div class="custom-add-comment"> </div>';
+		$variables['content']['links']['comment']['#links']['comment-add']['html'] = TRUE;
+    } 
+}
 // Toevoegen van een placeholders aan login form (enkel HTML5)
 function ap_hogeschool_theme_form_alter( &$form, &$form_state, $form_id )
 {
