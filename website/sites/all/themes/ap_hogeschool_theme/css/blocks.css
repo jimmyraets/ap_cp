@@ -1,0 +1,322 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block { /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title */
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-main-menu a:visited {
+color:#F00;
+}
+
+//*Dennis Calender*/
+.date-heading h3 a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+.month-view {
+	background-color:transparent;
+}
+	
+#block-views-kalender-block-1{	
+	width:220px;
+}
+		/*Title calenderblock centreren*/
+#block-views-kalender-block-1 h2{
+	text-align:center;
+}
+
+/*Tuning maandtitel van kalender*/
+#block-views-kalender-block-1 .view-header h3 a{	
+	height:40px;
+	text-decoration:none;
+	color:#FFF;		
+}
+
+#block-views-kalender-block-1 .view-header h3 a:hover{	
+	height:40px;
+	text-decoration:none;
+	color:#000;		
+}
+/*Einde tuning maandtitel van kalender*/
+	
+.calendar-calendar tr {
+	background-color:transparent;
+}
+	
+.calendar-calendar table.mini td.empty {	
+	background-color:transparent;
+}
+
+.calendar-calendar table.mini td.today {	
+	background-color:transparent;
+}
+
+.calendar-calendar table.mini th.days {	
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.calendar-calendar .month {
+    text-align: center;
+}
+	
+.calendar-calendar th.days {
+	color:#FFF;
+    border:none;
+    background-color:transparent;
+}
+.calendar-calendar td.has-no-events {
+	color:#000;
+}
+
+.calendar-calendar td.sat,
+.calendar-calendar td.sun {
+	color:#FFF;
+}
+
+.calendar-calendar td.today {
+	color:#F00;
+}
+	
+#block-views-kalender-block-1 .item-list{	
+	padding:0px;
+}
+	
+#block-views-kalender-block-1 .view-header{	
+	height:40px;
+}
+
+#legend{
+	/*clear:both;*/
+	width:260px;
+}
+
+#legend #cal_logo_1{
+	background-image: url(../images/cal_shoe.png);
+	background-repeat:no-repeat;
+	width:42px;
+	height:36px;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border-bottom:4px solid #FF0000;
+}
+
+#legend #cal_logo_2{
+	background-image: url(../images/cal_people.png); 
+	background-repeat:no-repeat;
+	width:42px;
+	height:36px;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border-bottom:4px solid #00FF00;
+}
+
+#legend #cal_logo_3{
+	background-image: url(../images/cal_reading.png);
+	background-repeat:no-repeat; 	
+	width:42px;
+	height:36px;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border-bottom:4px solid #0000FF;
+}
+
+#legend #cal_logo_4{
+	background-image: url(../images/cal_amuse.png);
+	background-repeat:no-repeat;	
+	width:42px;
+	height:36px;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border-bottom:4px solid #FFFF00;
+}
+#legend #cal_logo_5{
+	/*src: url(../images/cal_people.png); */
+	background-image: url(../images/cal_drink.png);
+	background-repeat:no-repeat;
+	width:42px;
+	height:36px;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border-bottom:4px solid #00FFFF;
+}
+/*Calender*/
+
+/*
+*
+Niveau 2 menu van het navigatie menu start
+*
+*/
+#block-menu-block-2{
+	padding-top:0px;
+	text-align:center;
+}
+#block-menu-block-2 a:link,
+#block-menu-block-2 a:visited{
+  	 color:#FFF;
+ 	 text-decoration:none;
+} 
+
+#block-menu-block-2 a:hover,
+#block-menu-block-2 a:focus{
+	color:#000;
+}
+#block-menu-block-2 ul.links, 
+#block-menu-block-2 ul.menu { 
+ 	margin: 0;
+ 	padding-top:10px;
+	font-size:18px;
+}
+
+#block-menu-block-2 ul.links li,
+#block-menu-block-2 ul.menu li { 
+ 	padding: 0 30px 0 0;
+  	list-style-type: none;
+  	list-style-image: none;
+	display: inline;
+    text-align: center;
+}
+
+/*
+*
+Niveau 2 menu van het navigatie menu stop
+*
+*/
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+
+}
+#block-system-navigation a { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+margin-left:100px;
+}
+
+
+/*customizing "my account" en "log out" na login*/
+#block-system-user-menu a  { 
+text-decoration:none;
+color:#000;
+font-family:Verdana, Tahoma, "DejaVu Sans", sans-serif;
+font-weight:bold;
+list-style-type:none;
+}
+
+#block-system-user-menu a:hover  { 
+text-decoration:underline;
+color:#F00;
+}
+
+#block-system-user-menu ul li { 
+list-style:none;
+display:inline;
+padding-right:18px;
+}
+/*end*/
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+margin-left:100px; 
+width:500;
+}
+#block-user-login h2{
+color:#FFF;
+font-size:32px;
+font-family: cubanoregular, Verdana, Tahoma, "DejaVu Sans", sans-serif;
+
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}

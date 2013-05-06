@@ -1,0 +1,171 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node { /* Node wrapper */
+
+}
+
+.preview .node { /* Preview of the content before submitting new or updated content */
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.node .node-title { /* Node title */
+}
+
+.node .user-picture { /* The picture of the node author */
+}
+
+.node .submitted { /* The "posted by" information */
+}
+
+.node .content { /* Node's content wrapper */
+}
+
+.node ul.links { /* Node links. See also the ul.links declaration in the pages.css. */
+}
+
+.node-promoted { /* A node that has been promoted to the front page */
+padding:0px;
+}
+
+.node-sticky { /* A sticky node (displayed before others in a list) */
+}
+
+.node-by-viewer { /* A node created by the current user */
+}
+
+.node-teaser { /* A node displayed as teaser */
+background:#FFF;
+max-width:220px;
+min-height:220px;
+min-width:220px;
+max-height:220px;
+float:left;
+padding-top:0px;
+margin:5px;
+overflow:hidden;
+position:relative;
+}
+
+.node-teaser .Wrapper-links-midden-rechts{
+	min-width:220px;
+	position:absolute;
+	bottom:0;
+	padding-bottom:13px;
+}
+
+.node-teaser.node-wie-zijn-we-,
+.node-teaser.node-wat-doen-we-,
+.node-teaser.node-video-s-uploaden,
+.node-teaser.node-stu-ver-worden,
+.node-teaser.node-foto-s-uploaden ,
+.node-teaser.node-event,
+.node-teaser.node-documenten-uploaden-vvs,
+.node-teaser.node-documenten-uploaden-aso,
+.node-teaser.node-documenten-uploaden-av_auha,
+.node-teaser.node-documenten-uploaden-stuvoraad,
+.node-teaser.node-docs,
+.node-teaser.node-applicatie-formulier{
+	font-size:12px;
+	line-height:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:5px;
+}
+
+.block-title{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+
+.node-teaser.node-documenten-uploaden-vvs .ds-body,
+.node-teaser.node-documenten-uploaden-aso .ds-body,
+.node-teaser.node-documenten-uploaden-av_auha .ds-body,
+.node-teaser.node-documenten-uploaden-stuvoraad .ds-body,
+.node-teaser.node-docs .ds-body,
+.node-wie-zijn-we- .ds-titel,
+.node-wie-zijn-we- .ds-body
+ {
+	text-align:center;
+	max-height:125px;
+	overflow:hidden;
+}
+.node-teaser.node-foto-s-uploaden .ds-body,
+.node-teaser.node-video-s-uploaden .ds-body,
+.node-teaser.node-applicatie-formulier .ds-body{
+	text-align:center;
+}
+
+
+/*
+*
+Begin: Hoe schakel je breadcrumb uit.
+*
+*/
+.breadcrumb {display: none;}
+/*
+*
+Einde: Hoe schakel je breadcrumb uit.
+*
+*/
+
+
+/*
+*
+*
+begin:  link verwijderen
+*
+*
+*/
+.view-mode-full.node-wie-zijn-we- .links,
+.view-view-s4p .node-wie-zijn-we- .links,
+.view-view-s4p .node-wie-zijn-we- .field-name-post-date,
+.node-teaser.node-applicatie-formulier .node-wie-zijn-we- .links,
+.node-teaser.node-applicatie-formulier .node-wie-zijn-we- .field-name-post-date,
+.view-mode-full.node-applicatie-formulier .links
+{
+	display:none;
+}
+
+/*
+*
+*
+eind:  link verwijderen 
+*
+*
+*/
+
+
+.node-page { /* Page content node */
+}
+
+.node-article { /* Article content node */
+}
+
+.node-unpublished { /* Unpublished nodes */
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished p.unpublished,
+.comment-unpublished p.unpublished { /* The word "Unpublished" displayed underneath the content. */
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.lt-ie8 .node-unpublished p.unpublished > *,
+.lt-ie8 .comment-unpublished > * {
+  position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
