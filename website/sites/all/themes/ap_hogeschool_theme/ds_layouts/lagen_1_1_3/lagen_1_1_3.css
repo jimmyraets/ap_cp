@@ -19,6 +19,10 @@
 	min-width:220px;
 	position:absolute;
 }
+.links{
+	margin-top: 0;
+	margin-bottom:0;
+}
 .custom-add-comment{
 	position:relative;
 	float:left;

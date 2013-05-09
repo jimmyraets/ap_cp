@@ -4,6 +4,8 @@
   <?php print render($title_suffix['contextual_links']); ?>
   <?php endif; ?>
   
+  <div class="Wrapper-titel-body">
+  
   <?php if ($titel): ?>
     <div class="ds-titel<?php print $titel_classes; ?>">
       <?php print $titel; ?>
@@ -15,6 +17,7 @@
       <?php print $body; ?>
     </div>
   <?php endif; ?>
+  </div>
   
   <div class="Wrapper-links-midden-rechts">
   

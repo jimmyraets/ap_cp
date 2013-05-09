@@ -1,0 +1,96 @@
+/*
+ *What: mobile styling 
+ *Author: Dennis J
+ *Year: 2013
+*/
+@media all and (max-width: 720px) {
+  /* line 9, ../../sass/css_mobile/zgtest.scss */
+  body {
+    background: #888;
+  }
+
+  /*home....*/
+  /* line 14, ../../sass/css_mobile/zgtest.scss */
+  #main-menu, #header {
+    background-image: none;
+  }
+
+  /*Studentenraden*/
+  /*searchbar*/
+  /************************************************/
+  /* line 34, ../../sass/css_mobile/zgtest.scss */
+  #header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* line 46, ../../sass/css_mobile/_grids.scss */
+  #header:before, #header:after {
+    content: "";
+    display: table;
+  }
+  /* line 50, ../../sass/css_mobile/_grids.scss */
+  #header:after {
+    clear: both;
+  }
+  /* line 46, ../../sass/css_mobile/_grids.scss */
+  #header:before, #header:after {
+    content: "";
+    display: table;
+  }
+  /* line 50, ../../sass/css_mobile/_grids.scss */
+  #header:after {
+    clear: both;
+  }
+
+  /*home....*/
+  /* line 44, ../../sass/css_mobile/zgtest.scss */
+  #main-menu {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background: #FF0;
+  }
+
+  /*Studentenraden*/
+  /* line 51, ../../sass/css_mobile/zgtest.scss */
+  #block-menu-block-1 ul.menu {
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background: #F00;
+  }
+
+  /*searchbar*/
+  /* line 58, ../../sass/css_mobile/zgtest.scss */
+  block-search-form {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background: #00F;
+  }
+}

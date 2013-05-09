@@ -518,17 +518,33 @@ Begin: Partnerraden pagina
 	padding-left:50px;
 }
 .view-view-partnerraad-linkpagina .field-name-field-logo-partner {
-	margin-right:50px;
-	padding-bottom:25px;
+
 	padding-top:25px;
-	margin-top:-15px;
 
 }
 .view-view-partnerraad-linkpagina .col-first .field-name-field-logo-partner {
+	padding-right:45px;
 	border-right:solid;
 	border-color:#FFF;
+	border-width:thick;
+	padding-left:20px;
 }
-
+.view-view-partnerraad-linkpagina .col-last  .field-name-field-logo-partner {
+	margin-left:-3px;
+	padding-left:45px;
+	padding-right:20px;
+}
+.view-view-partnerraad-linkpagina .row-first  .field-name-field-logo-partner {
+	padding-bottom:43px;
+	border-bottom:solid;
+	border-width:thick;
+	border-color:#FFF;
+}
+.view-view-partnerraad-linkpagina .row-last  .field-name-field-logo-partner {
+	margin-top:-3px;
+	padding-bottom:20px;
+	padding-top:43px;
+}
 /*
 *
 Einde: Partnerraden pagina

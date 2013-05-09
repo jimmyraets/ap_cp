@@ -1,0 +1,253 @@
+/*
+ *What: mobile styling 
+ *Author: Dennis J
+ *Year: 2013
+*/
+@media all and (max-width: 720px) {
+  /* line 9, ../../sass/css_mobile/mobile - kopie.scss */
+  #page, body {
+    max-width: 720px;
+    width: 100%;
+    float: left;
+  }
+
+  /* line 15, ../../sass/css_mobile/mobile - kopie.scss */
+  #header, #main, #footer, .region-navigation, #main-menu {
+    background-image: none;
+  }
+
+  /* line 19, ../../sass/css_mobile/mobile - kopie.scss */
+  #main, #footer, .region-navigation, #main-menu {
+    background: #AAA;
+  }
+
+  /*Kalender op hidden*/
+  /* line 25, ../../sass/css_mobile/mobile - kopie.scss */
+  #block-views-kalender-block-1 {
+    /*visibility:hidden;*/
+    display: none;
+  }
+
+  /* line 35, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-422,
+  .region-navigation .active-top-level-mlid-423,
+  .region-navigation .active-top-level-mlid-424,
+  .region-navigation .active-top-level-mlid-425,
+  .region-navigation .active-top-level-mlid-426,
+  .region-navigation .active-top-level-mlid-427,
+  .region-navigation .active-top-level-mlid-428 {
+    background-image: none;
+  }
+
+  /* line 39, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-422 {
+    /*background-image:none;*/
+    background: #C40009;
+    /*rood*/
+  }
+
+  /* line 43, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-423 {
+    background: #50a0aD;
+    /*blauwig*/
+  }
+
+  /* line 46, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-424 {
+    background: #950174;
+    /*paars*/
+  }
+
+  /* line 49, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-425 {
+    background: #62985B;
+    /*groen*/
+  }
+
+  /* line 52, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-426 {
+    background: #DE9700;
+    /*oranje*/
+  }
+
+  /* line 55, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-427 {
+    background: #7F6E68;
+    /*bruin*/
+  }
+
+  /* line 58, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-navigation .active-top-level-mlid-428 {
+    background: #585E5F;
+    /*grijs*/
+  }
+
+  /* line 62, ../../sass/css_mobile/mobile - kopie.scss */
+  #nav-search-wrap {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 67, ../../sass/css_mobile/mobile - kopie.scss */
+  #search-two {
+    /*	margin-top:0;
+    padding-bottom:0;
+    
+    width:280px;*/
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  /* line 79, ../../sass/css_mobile/mobile - kopie.scss */
+  #navigation-two {
+    /*
+    margin:0;
+    padding-left:0;
+    text-align:center;
+    */
+    display: block;
+  }
+
+  /* line 90, ../../sass/css_mobile/mobile - kopie.scss */
+  #block-search-form, #search-block-form {
+    margin: 0;
+  }
+
+  /* line 94, ../../sass/css_mobile/mobile - kopie.scss */
+  block-menu-block-1 {
+    margin-bottom: 0;
+  }
+
+  /* line 99, ../../sass/css_mobile/mobile - kopie.scss */
+  #block-user-login {
+    /*margin:auto;
+    padding:auto;*/
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+  }
+
+  /* line 107, ../../sass/css_mobile/mobile - kopie.scss */
+  #footer {
+    max-width: 720px;
+    width: 100%;
+    height: 200px;
+  }
+
+  /* line 116, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu {
+    float: none;
+    margin: 0px 0px 0px;
+    padding: 0;
+    /**Dennis maxwidth*/
+    max-width: 720px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* line 119, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu.open {
+    display: block;
+  }
+
+  /* line 120, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 121, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu ul li {
+    border-bottom: 1px solid #D9D9D9;
+    clear: both;
+    float: none;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 122, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu ul li.first {
+    border-top: 1px solid #D9D9D9;
+  }
+
+  /* line 123, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu ul.navigation-items .menu-3578 {
+    display: block !important;
+  }
+
+  /* line 124, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu ul li a {
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    background-color: #6d6e71;
+    z-index: 10;
+  }
+
+  /* line 125, ../../sass/css_mobile/mobile - kopie.scss */
+  #main-menu ul li a:hover, #main-menu ul li a.active {
+    background-image: none;
+    color: #000;
+    background-color: #5d5d5d;
+  }
+
+  /* line 127, ../../sass/css_mobile/mobile - kopie.scss */
+  #main, #content {
+    padding-left: 0;
+  }
+
+  /* line 129, ../../sass/css_mobile/mobile - kopie.scss */
+  #content {
+    margin: 0;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+  }
+
+  /* line 137, ../../sass/css_mobile/mobile - kopie.scss */
+  #main {
+    margin: auto;
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 144, ../../sass/css_mobile/mobile - kopie.scss */
+  .sidebar-first {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 151, ../../sass/css_mobile/mobile - kopie.scss */
+  #header {
+    height: 400px;
+    max-width: 720px;
+    padding: 0px;
+  }
+
+  /* line 157, ../../sass/css_mobile/mobile - kopie.scss */
+  .region-search-two {
+    background: #bebdbd;
+    padding: 5px;
+  }
+
+  /*logo studentenraad*/
+  /* line 164, ../../sass/css_mobile/mobile - kopie.scss */
+  #logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 169, ../../sass/css_mobile/mobile - kopie.scss */
+  #logo img {
+    margin-top: 5px;
+    margin-left: 10px;
+    /*vertical-align: bottom;*/
+    position: absolute;
+  }
+}

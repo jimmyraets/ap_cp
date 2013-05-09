@@ -58,7 +58,12 @@ position:relative;
 	bottom:0;
 	padding-bottom:13px;
 }
-
+.node-teaser.node-wat-doen-we- .ds-body,
+.node-teaser.node-event .ds-body,
+.node-teaser.node-stu-ver-worden .ds-body {
+	max-height:130px;
+	overflow:hidden;
+}
 .node-teaser.node-wie-zijn-we-,
 .node-teaser.node-wat-doen-we-,
 .node-teaser.node-video-s-uploaden,
@@ -88,8 +93,8 @@ position:relative;
 .node-teaser.node-documenten-uploaden-av_auha .ds-body,
 .node-teaser.node-documenten-uploaden-stuvoraad .ds-body,
 .node-teaser.node-docs .ds-body,
-.node-wie-zijn-we- .ds-titel,
-.node-wie-zijn-we- .ds-body
+.node-teaser.node-wie-zijn-we- .ds-titel,
+.node-teaser.node-wie-zijn-we- .ds-body
  {
 	text-align:center;
 	max-height:125px;
@@ -103,24 +108,16 @@ position:relative;
 
 
 /*
-*
 Begin: Hoe schakel je breadcrumb uit.
-*
 */
 .breadcrumb {display: none;}
 /*
-*
 Einde: Hoe schakel je breadcrumb uit.
-*
 */
 
 
 /*
-*
-*
 begin:  link verwijderen
-*
-*
 */
 .view-mode-full.node-wie-zijn-we- .links,
 .view-view-s4p .node-wie-zijn-we- .links,
@@ -133,14 +130,243 @@ begin:  link verwijderen
 }
 
 /*
-*
-*
-eind:  link verwijderen 
-*
-*
+einde:  link verwijderen 
+*/
+
+/*
+Begin: Opmaak  view: wie zijn we  
+*/
+.view-view-wie-zijn-we-- .view-mode-teaser{
+	background:#FFF;
+	
+	max-width:185px;
+	max-height:300px;
+	min-width:185px;
+	min-height:300px;
+	
+	padding-top:15px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:5px;
+	margin-right:5px;
+	float:left;
+	text-align:center;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-titel{
+	border-bottom:solid #CACACA 7px;
+	position: absolute;
+	padding-top:180px;
+	text-align:center;
+	font-size:12px;
+	line-height:15px;
+	min-width:210px;
+	margin-left:-15px;
+
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-body{
+	max-height:180px;
+	min-height:180px;
+	position: absolute;
+	text-align:center;
+	padding-top:-180px;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-body .field-name-title{
+	margin-top:-10px;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#F00;
+	margin-bottom:40px;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-links{
+	margin-left:65px;
+	position:relative;
+}
+.view-view-wie-zijn-we-- .read-more-wie-zijn-we{
+	margin-right:65px;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-midden .field-name-post-date{
+	display:none;
+}
+
+.front .node-teaser.node-wie-zijn-we- .ds-midden .field-name-field-e-mail{
+	display:none;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-midden{
+	margin-left:35px;
+	position:absolute;
+	margin-top:-13px;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-midden .field-name-field-e-mail{
+	max-width:35px;
+}
+.view-view-wie-zijn-we-- .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  /*background-image: url(../images/Mail_wiezijnwe.png);*/
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.read-more-wie-zijn-we{
+	float:left;
+	min-height:25px;
+	min-width:27px;
+}
+.add-comment-wie-zijn-we{
+	float:left;
+	min-height:25px;
+	min-width:30px;
+}
+.view-display-id-page .view-mode-teaser .read-more-wie-zijn-we{
+	background:url(../images/Persoon_wiezijnwe.png) center no-repeat;
+}
+.view-display-id-page .add-comment-wie-zijn-we{
+	background:url(../images/Chat_wiezijnwe.png) center no-repeat;
+}
+.view-display-id-page .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image: url(../images/Mail_wiezijnwe.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.view-display-id-page .view-mode-teaser .ds-titel{
+	color:#ed1c24;
+}
+.view-display-id-page_3 .view-mode-teaser .read-more-wie-zijn-we{
+	background: url(../images/Persoon_wiezijnwe_g&w.png) center no-repeat;
+}
+.view-display-id-page_3 .add-comment-wie-zijn-we{
+	background: url(../images/Chat_wiezijnwe_g&w.png) center no-repeat;
+}
+.view-display-id-page_3 .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image: url(../images/Mail_wiezijnwe_g&w.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.view-display-id-page_3 .view-mode-teaser .ds-titel{
+	color:#00a5b1;
+}
+.view-display-id-page_4 .view-mode-teaser .read-more-wie-zijn-we{
+	background: url(../images/Persoon_wiezijnwe_KC.png) center no-repeat;
+}
+.view-display-id-page_4 .add-comment-wie-zijn-we{
+	background: url(../images/Chat_wiezijnwe_KC.png) center no-repeat;
+}
+.view-display-id-page_4 .view-mode-teaser .ds-titel{
+	color:#7c706c;;
+}
+.view-display-id-page_4 .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image: url(../images/Mail_wiezijnwe_KC.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.view-display-id-page_6 .view-mode-teaser .read-more-wie-zijn-we{
+	background: url(../images/Persoon_wiezijnwe_m&c.png) center no-repeat;
+}
+.view-display-id-page_6 .add-comment-wie-zijn-we{
+	background: url(../images/Chat_wiezijnwe_m&c.png) center no-repeat;
+}
+.view-display-id-page_6 .view-mode-teaser .ds-titel{
+	color:#f89c1b;
+}
+.view-display-id-page_6 .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image: url(../images/Mail_wiezijnwe_m&c.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.view-display-id-page_2 .view-mode-teaser .read-more-wie-zijn-we{
+	background: url(../images/Persoon_wiezijnwe_o&t.png) center no-repeat;
+}
+.view-display-id-page_2 .add-comment-wie-zijn-we{
+	background: url(../images/Chat_wiezijnwe_o&t.png) center no-repeat;
+}
+.view-display-id-page_2 .view-mode-teaser .ds-titel{
+	color:#ad217e;
+}
+.view-display-id-page_2 .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image:url(../images/Mail_wiezijnwe_o&t.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.view-display-id-page_5 .view-mode-teaser .read-more-wie-zijn-we{
+	background: url(../images/Persoon_wiezijnwe_kask.png) center no-repeat;
+}
+.view-display-id-page_5 .add-comment-wie-zijn-we{
+	background: url(../images/Chat_wiezijnwe_kask.png) center no-repeat;
+}
+.view-display-id-page_5 .view-mode-teaser .ds-titel{
+	color:#4d6063;
+}
+.view-display-id-page_5 .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image: url(../images/Mail_wiezijnwe_KASK.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+.view-display-id-page_1 .view-mode-teaser .read-more-wie-zijn-we{
+	background: url(../images/Persoon_wiezijnwe_w&t.png) center no-repeat;
+}
+.view-display-id-page_1 .add-comment-wie-zijn-we{
+	background: url(../images/Chat_wiezijnwe_w&t.png) center no-repeat;
+}
+.view-display-id-page_1 .view-mode-teaser .ds-titel{
+	color:#2b9f65;
+}
+.view-display-id-page_1 .view-mode-teaser .ds-midden div.field div.field-items div.field-item a{
+  display: block;
+  text-indent: -99999em;
+  background-image: url(../images/Mail_wiezijnwe_w&t.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  min-height:25px;
+  max-width:35px;
+}
+/*
+Einde: Opmaak  view: wie zijn we  
 */
 
 
+
+/*
+Begin: Opmaak wie zijn we full content
+*/
+.view-mode-full.node-wie-zijn-we-{
+	/*background:#FFF;*/
+}
+.view-mode-full.node-wie-zijn-we- .group-header{
+	max-width:210px;
+	padding-top:15px;
+	min-height:255px;
+	background:#FFF;
+	text-align:center;
+	border-bottom:solid 7px #CACACA;
+}
+/*
+Einde: Opmaak wie zijn we full content
+*/
 .node-page { /* Page content node */
 }
 

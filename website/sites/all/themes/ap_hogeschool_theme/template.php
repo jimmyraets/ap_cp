@@ -323,10 +323,11 @@ Verander de "Read more" , "Add new comment" in afbeeldingen en schakel de "comme
 
 function ap_hogeschool_theme_preprocess_node(&$variables){
 	$variables['content']['links']['comment']['#links']['comment-comments'] = FALSE; 
+	
 	if($variables['is_front'])
 	{	
 		$variables['content']['links']['node']['#links']['node-readmore']['title'] ='<div class="custom-add-read-more"> </div>';
-		$variables['content']['links']['comment']['#links']['node-readmore']['html'] = TRUE;
+		$variables['content']['links']['node']['#links']['node-readmore']['html'] = TRUE;
 		//$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<span class="element-invisible">Add comment</span>';
 		$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<div class="custom-add-comment"> </div>';
 		$variables['content']['links']['comment']['#links']['comment-add']['html'] = TRUE;
@@ -334,12 +335,39 @@ function ap_hogeschool_theme_preprocess_node(&$variables){
 	if($variables['type'] == 'docs' || $variables['type'] == 'applicatie_formulier')
 	{	
 		$variables['content']['links']['node']['#links']['node-readmore']['title'] ='<div class="custom-add-read-more"> </div>';
-		$variables['content']['links']['comment']['#links']['node-readmore']['html'] = TRUE;
-		//$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<span class="element-invisible">Add comment</span>';
+		$variables['content']['links']['node']['#links']['node-readmore']['html'] = TRUE;
 		$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<div class="custom-add-comment"> </div>';
 		$variables['content']['links']['comment']['#links']['comment-add']['html'] = TRUE;
     } 
+
+	if( $variables['type'] == 'wie_zijn_we_')
+	{
+		if($variables['view_mode'] == 'teaser' && $variables['is_front'] == false )
+		{	
+			$variables['content']['links']['node']['#links']['node-readmore']['title'] ='<div class="read-more-wie-zijn-we"> </div>';
+			$variables['content']['links']['node']['#links']['node-readmore']['html'] = TRUE;
+			$variables['content']['links']['comment']['#links']['comment-add']['title'] = '<div class="add-comment-wie-zijn-we"> </div>';
+			$variables['content']['links']['comment']['#links']['comment-add']['html'] = TRUE;
+		}
+    } 
 }
+
+
+//function ap_hogeschool_theme_email_field_formatter_view($object_type, $object, $field, $instance, $langcode, $items, $display) {
+//  $element = array();
+//  switch ($display['type']) { 
+//   
+//    case 'email_contact':
+//      $ids = entity_extract_ids($object_type, $object);
+//      foreach ($items as $delta => $item) {
+//        $element[$delta] = array('#markup' => l(t('Contact '), 'email/' . $object_type . '/' . $ids[0] . '/' . $instance['field_name']));
+//        break;
+//      	}  
+//  	}
+//}
+
+
+
 
 // Toevoegen van een placeholders aan login form (enkel HTML5)
 function ap_hogeschool_theme_form_alter( &$form, &$form_state, $form_id )

@@ -61,6 +61,10 @@ stylesheets[all][] = css/comments.css
 stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/print.css
+; Dennis toegevoegd
+;stylesheets[all][] = css/css_mobile/mobile.css
+;stylesheets[all][] = css/css_mobile/zgtest.css
+stylesheets[all][] = css/css_mobile/mobile2.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
@@ -77,6 +81,7 @@ stylesheets[all][] = css/print.css
 ; Optionally add some JavaScripts to your theme.
 
 ;scripts[] = js/script.js
+scripts[] = js/js_mobile.js
 
 
 
